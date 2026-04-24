@@ -24,11 +24,11 @@ services:
       - POSTGRES_PASSWORD=dev
       - POSTGRES_DB=bookstore_db
     networks:
-      - backend
+      - backend # network a ser usada
 
 networks:
   backend:
-    driver: bridge
+    driver: bridge # tipo da network
 
 volumes:
   postgres_data:
