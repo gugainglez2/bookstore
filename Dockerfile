@@ -35,4 +35,6 @@ COPY . /app/
 
 EXPOSE 8000
 
+RUN python manage.py collectstatic --noinput
+
 CMD ["sh", "-c", "python manage.py migrate && gunicorn bookstore_project.wsgi:application --bind 0.0.0.0:8000"]
