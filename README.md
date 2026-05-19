@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./api/demo.gif" alt="Demonstração Animada do cadastro de itens" width="800">
+</div>
+
 # 📚 Bookstore API
 
 [![Django](https://img.shields.io/badge/Django-6.0-092e20?style=for-the-badge&logo=django)](https://www.djangoproject.com/)
